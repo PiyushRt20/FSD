@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: cadetblue;
+  }
+  .child1{
+    border: 1px solid chartreuse;
+    background-color: rgb(137, 65, 65);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child2{
+    border: 1px solid rgb(229, 28, 28);
+    background-color: rgb(237, 126, 141);
+    height: 400px;
+    width: 400px;
+    order: 5;
+  
+  }
+  .child3{
+    border: 1px solid rgb(59, 97, 21);
+    background-color: rgb(29, 146, 150);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child4{
+    border: 1px solid rgb(72, 45, 152);
+    background-color: rgb(72, 193, 197);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child5{
+    border: 1px solid rgb(72, 45, 152);
+    background-color: rgb(29, 126, 130);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child6{
+    border: 1px solid rgb(72, 45, 152);
+    background-color: rgb(4, 5, 5);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child7{
+    border: 1px solid rgb(72, 45, 152);
+    background-color: rgb(197, 72, 160);
+    height: 400px;
+    width: 400px;
+  
+  }
+  .child8{
+    border: 1px solid rgb(72, 45, 152);
+    background-color: rgb(72, 193, 197);
+    height: 400px;
+    width: 400px;
+  
+  }

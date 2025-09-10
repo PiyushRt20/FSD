@@ -1,0 +1,41 @@
+/* body{
+  background-color: aqua;
+} */
+
+/* p,h2{
+  background-color: beige;
+  color: blue;
+} */
+
+/* #para1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+} */
+
+/* .para1{
+    background-color: aquamarine;
+} */
+
+div ~ p{
+    background-color: blueviolet;
+}
+p:hover{
+    background-color: cadetblue;
+    font-size: xx-large;
+}
+p::before{
+    content: "hiiii";
+}
+p::after{
+    background-color: rgb(43, 226, 101);
+    content: "hello";
+}
+p::selection{
+    background-color: burlywood;
+}
+p:nth-child(2){
+    background-color: beige;
+}
+div p:nth-of-type(1){
+    background-color: rgb(34, 153, 189);
+}
