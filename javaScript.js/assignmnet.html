@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #he{
+          border:2px solid black;
+          width:200px;
+          height:200px;
+          text-align:center;
+          margin:auto;
+          margin-top:100px;
+          padding-top:20px;
+          background-color: rgb(39, 192, 219);
+        }
+        button{
+          width:70px;
+          height:30px;
+          font-size:15px;
+          font-weight:bold;
+          margin:10px;
+          cursor:pointer;
+          background-color: rgb(56, 236, 107);
+        }
+        </style>
+</head>
+<body>
+    <div id="he">
+        <h4> COUNTER APPgit </h4>
+        <button onclick="toAdd()"> ADD</button>
+        <button onclick="toSub()"> SUB</button>
+        <p id="adi">0</p>
+
+    </div>
+
+    <script>
+        let count =0;
+        function toAdd(){
+            if(count < 10){
+                count++;
+            document.getElementById("adi").innerHTML= count;
+            }
+            else{
+                alert("max limit");
+            }
+        }
+        function toSub(){
+            if(count > 0 && count <=10){
+                count--;
+                document.getElementById("adi").innerHTML= count;
+            }
+            else{
+                alert("minimum value")
+            }    
+        }
+    </script>
+    
+</body>
+</html>
