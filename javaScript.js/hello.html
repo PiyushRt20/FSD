@@ -1,3 +1,33 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        #pi{
+            border: 5px solid red;
+            height: 100px;
+            background-color: aqua;
+
+        }
+    </style>
+<body>
+    <div id="pi">
+        <button onclick="abes()"> CLICK</button>
+        <p id="aa"></p>
+    </div>
+    
+    <script>
+        function abes(){
+            document.getElementById("aa").innerHTML= "<h1>hello </h1>";
+        }
+
+    </script>
+</body>
+</html> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +35,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <p id="pi"></p>
-    <script>
-        document.write("hello");
-        alert("BEST");
-        document.getElementById("pi").innerHTML= "yes";
-
-    </script>
+<body id="adi">
+    <button onclick="colorRed()"> RED</button>
+    <button onclick="colorGreen()"> GREEN</button>
+    <button onclick="colorBlue()"> BLUE</button>
+    <SCRIpt>
+        function colorRed(){
+            document.getElementById("adi").style.backgroundColor= "red";
+        }
+        function colorGreen(){
+            document.getElementById("adi").style.backgroundColor= "green";
+        }
+        function colorBlue(){
+            document.getElementById("adi").style.backgroundColor= "blue";
+        }
+    </SCRIpt>
+    
 </body>
 </html>
